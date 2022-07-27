@@ -22,12 +22,10 @@ def main():  # noqa: C901
             correct_answers += 1
         else:
             if user_answer == "yes":
-                print(f"""{user_answer} is wrong answer
-                ;(. Correct answer was 'no'.""")
+                print(f"{user_answer} is wrong answer ;(. Correct answer was 'no'.")
                 print(f"Let's try again, {user_name}!")
             elif user_answer == "no":
-                print(f"""{user_answer} is wrong answer
-                ;(. Correct answer was 'yes'.""")
+                print(f"{user_answer} is wrong answer ;(. Correct answer was 'yes'.")
                 print(f"Let's try again, {user_name}!")
             elif user_answer != "yes" and user_answer != "no":
                 print(f"{user_answer} is wrong answer")
