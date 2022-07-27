@@ -34,7 +34,6 @@ def main():
         pass
     else:
         print(f"Congratulations, {user_name}!")
-    # print("hello boys and girls")
 
 
 if __name__ == '__main__':
