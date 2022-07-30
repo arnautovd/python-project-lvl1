@@ -15,7 +15,7 @@ def main():  # noqa: C901
         num2 = int(random.random() * 100)
         gcd = math.gcd(num1, num2)
         print(f"Question: {num1} {num2}")
-        user_answer = prompt.string("Your answer: ")
+        user_answer = prompt.integer("Your answer: ")
         template_for_answer = f"{user_answer} is wrong answer ;(. Correct answer was"
 
         if user_answer == gcd:
